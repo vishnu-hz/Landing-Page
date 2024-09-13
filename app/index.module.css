@@ -1,0 +1,16 @@
+.rectangleDiv {
+    width: 100%;
+    position: relative;
+    background-color: #f9f9f9;
+    height: 823px;
+}
+
+.rectangleDiv {
+    width: 100%;
+    position: relative;
+    box-shadow: 7px 0px 14px rgba(0, 0, 0, 0.06);
+    border-radius: 70px;
+    background-color: #fff;
+    height: 79px;
+}
+

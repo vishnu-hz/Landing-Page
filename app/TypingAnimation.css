@@ -1,0 +1,13 @@
+.blinking-cursor {
+    animation: blink 1s step-start infinite;
+  }
+  
+  @keyframes blink {
+    from, to {
+      visibility: hidden;
+    }
+    50% {
+      visibility: visible;
+    }
+  }
+  

@@ -1,0 +1,64 @@
+@keyframes blobMovement {
+    0% {
+        transform: translateY(0px) rotate(-30deg);
+    }
+
+    50% {
+        transform: translateY(-20px) rotate(-35deg);
+    }
+
+    100% {
+        transform: translateY(0px) rotate(-30deg);
+    }
+}
+
+.blob-animate {
+    animation: blobMovement 5s ease-in-out infinite;
+}
+
+
+
+/* Tailwind CSS classes for blob animation
+
+
+
+/* @keyframes blob-move {
+    0% {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+
+    50% {
+        transform: translate(-50%, -50%) rotate(180deg);
+    }
+
+    100% {
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
+}
+
+.blob {
+    position: absolute;
+    border-radius: 9999px;
+    background: linear-gradient(180deg, rgba(59, 214, 219, 0) -13.27%, rgba(16, 145, 245, 0.72) 67.06%, #0076FF 98.01%);
+    filter: blur(64px);
+    mix-blend-mode: multiply;
+    opacity: 0.9;
+    animation: blob-move 15s infinite alternate;
+}
+
+/* Adjust the width, height, and positioning as needed */
+/* .blob-left {
+    width: 741px;
+    height: 585px;
+    bottom: 9rem;
+    left: -30rem;
+    transform: rotate(90deg);
+}
+
+.blob-right {
+    width: 751px;
+    height: 518px;
+    bottom: 8rem;
+    right: -30rem;
+    transform: rotate(-90deg);
+} */ 
