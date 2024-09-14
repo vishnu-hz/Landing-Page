@@ -63,13 +63,12 @@ import React, { useRef } from 'react';
 
 
 const Cards = () => {
-  const cardContainerRef = useRef(null);
+  const cardContainerRef = useRef<HTMLDivElement | null>(null);
 
   const scrollLeft = () => {
     if (cardContainerRef.current) {
-      // Scroll by one card's width plus margin
-      cardContainerRef.current.scrollBy({
-        left: - (cardContainerRef.current.offsetWidth / 2),
+      (cardContainerRef.current as HTMLDivElement).scrollBy({
+        left: - (cardContainerRef.current.offsetWidth / 1.2),
         behavior: 'smooth'
       });
     }
@@ -77,14 +76,12 @@ const Cards = () => {
 
   const scrollRight = () => {
     if (cardContainerRef.current) {
-      // Scroll by one card's width plus margin
-      cardContainerRef.current.scrollBy({
-        left: cardContainerRef.current.offsetWidth /1.1,
+      (cardContainerRef.current as HTMLDivElement).scrollBy({
+        left: cardContainerRef.current.offsetWidth / 1.2,
         behavior: 'smooth'
       });
     }
   };
-
   return (
     <div className='overflow-hidden relative'>
       
