@@ -16,7 +16,7 @@ import Features from './Features'
 import Credibility from './Credibility'
 import Testimonials from './Testimonials'
 import Footer from './Footer'
-import Form from './Form'
+import Form from '../app/form/page'
 export default function Home() {
   return (
     
