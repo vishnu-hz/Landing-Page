@@ -25,6 +25,8 @@ const config: Config = {
       },
       boxShadow: {
         'home-screen': '-40px 70px 22px rgba(0, 0, 0, 0.00), -25px 45px 21px rgba(0, 0, 0, 0.01), -14px 25px 17px rgba(0, 0, 0, 0.05), -6px 11px 13px rgba(0, 0, 0, 0.09), -2px 3px 7px rgba(0, 0, 0, 0.10)',
+
+        'custom': '5px 5px 20px 0px rgba(0, 0, 0, 0.10)',
       },
     },
   },

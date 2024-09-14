@@ -106,6 +106,29 @@
 // export default BlobBackground;
 
 
+// import React from "react";
+// import "./App.css"; // Custom animations
+// import Page1 from "./page1";
+// import TypingAnimation from "./TypingAnimation";
+
+// const BlobBackground = () => {
+//   return (
+//     <div className="relative w-full h-screen overflow-hidden">
+//       {/* Blob 1: Top Left */}
+//       <div className="absolute w-[865px] h-[865px] rotate-[65deg] -left-[30rem] bottom-[9rem] bg-gradient-to-t from-[#0076FF] via-[#1091F5B8] to-[#fff] rounded-full mix-blend-multiply filter blur-3xl opacity-90 -z-10"></div>
+      
+//       {/* Blob 2: Bottom Right */}
+//       <div className="absolute w-[973px] h-[870px] -rotate-[30deg] -right-[24rem] top-[30rem] bg-gradient-to-r from-[#0076FF] via-[#1091F5B8] to-[#fff] rounded-full mix-blend-multiply filter blur-3xl opacity-90 -z-10"></div>
+
+//       {/* Other components */}
+//       <Page1 />
+//       {/* <TypingAnimation /> */}
+//     </div>
+//   );
+// };
+
+// export default BlobBackground;
+
 import React from "react";
 import "./App.css"; // Custom animations
 import Page1 from "./page1";
@@ -120,12 +143,12 @@ const BlobBackground = () => {
       {/* Blob 2: Bottom Right */}
       <div className="absolute w-[973px] h-[870px] -rotate-[30deg] -right-[24rem] top-[30rem] bg-gradient-to-r from-[#0076FF] via-[#1091F5B8] to-[#fff] rounded-full mix-blend-multiply filter blur-3xl opacity-90 -z-10"></div>
 
-      {/* Other components */}
+      {/* Main Page */}
       <Page1 />
-      {/* <TypingAnimation /> */}
     </div>
   );
 };
 
 export default BlobBackground;
+
 

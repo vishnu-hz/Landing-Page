@@ -7,125 +7,10 @@ const Cards = () => {
 
         <div className='flex mt-[90px] mx-[248px] gap-[70px]'>
         <div className='w-[508px] h-[398px] bg-rectangle3 bg-lightgray bg-center bg-cover bg-no-repeat rounded-[30px]'>
-    <div className='flex mt-[117px] mx-[61px] gap-[12px]'>
-    <div 
-  className='w-[187px] h-[74px] bg-white rounded-[23px]' 
-  style={{ 
-    boxShadow: '0px 2px 2px 0px rgba(0, 0, 0, 0.06), 4px 4px 9px 0px rgba(0, 0, 0, 0.21)' 
-  }}
->
-    <div className='flex items-center mt-[10px] '>
-    <div className='mx-[22px] mt-[16px] text-[16px] font-normal'>
-        Summarize
+        <img src='./Card3.svg'/>
     </div>
-    <div className='absolute mt-[16px] mx-[148px]'>
-    <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21" fill="none">
-  <path d="M9.625 3.5H3.5C3.03587 3.5 2.59075 3.68437 2.26256 4.01256C1.93437 4.34075 1.75 4.78587 1.75 5.25V17.5C1.75 17.9641 1.93437 18.4092 2.26256 18.7374C2.59075 19.0656 3.03587 19.25 3.5 19.25H15.75C16.2141 19.25 16.6592 19.0656 16.9874 18.7374C17.3156 18.4092 17.5 17.9641 17.5 17.5V11.375" stroke="url(#paint0_linear_3339_21563)" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M16.1875 2.1877C16.5356 1.8396 17.0077 1.64404 17.5 1.64404C17.9923 1.64404 18.4644 1.8396 18.8125 2.1877C19.1606 2.53579 19.3562 3.00792 19.3562 3.5002C19.3562 3.99248 19.1606 4.4646 18.8125 4.8127L10.5 13.1252L7 14.0002L7.875 10.5002L16.1875 2.1877Z" stroke="url(#paint1_linear_3339_21563)" stroke-linecap="round" stroke-linejoin="round"/>
-  <defs>
-    <linearGradient id="paint0_linear_3339_21563" x1="17.5" y1="11.375" x2="1.75" y2="11.375" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#2DD5C3"/>
-      <stop offset="1" stop-color="#0076FF"/>
-    </linearGradient>
-    <linearGradient id="paint1_linear_3339_21563" x1="19.3562" y1="7.82212" x2="7" y2="7.82212" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#2DD5C3"/>
-      <stop offset="1" stop-color="#0076FF"/>
-    </linearGradient>
-  </defs>
-</svg>
-</div>
-    </div>
-</div>
-
-<div 
-  className='w-[187px] h-[74px] bg-white rounded-[23px]' 
-  style={{ 
-    boxShadow: '0px 2px 2px 0px rgba(0, 0, 0, 0.06), 4px 4px 9px 0px rgba(0, 0, 0, 0.21)' 
-  }}
->
-
-<div className='flex items-center mt-[10px] '>
-    <div className='mx-[22px] mt-[16px] text-[16px] font-normal'>
-        Create
-    </div>
-    <div className='absolute mt-[16px] mx-[148px]'>
-    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
-  <path d="M21 11.9792C21.0034 13.3541 20.6951 14.7103 20.1 15.9375C19.3944 17.4081 18.3098 18.645 16.9674 19.5097C15.6251 20.3744 14.0782 20.8327 12.5 20.8334C11.1801 20.8369 9.87812 20.5157 8.7 19.8959L3 21.875L4.9 15.9375C4.30493 14.7103 3.99656 13.3541 4 11.9792C4.00061 10.3352 4.44061 8.72383 5.27072 7.3256C6.10083 5.92737 7.28825 4.7975 8.7 4.06253C9.87812 3.44267 11.1801 3.12145 12.5 3.12503H13C15.0843 3.24481 17.053 4.16124 18.5291 5.69884C20.0052 7.23644 20.885 9.28717 21 11.4584V11.9792Z" stroke="url(#paint0_linear_3339_21557)" stroke-linecap="round" stroke-linejoin="round"/>
-  <defs>
-    <linearGradient id="paint0_linear_3339_21557" x1="21" y1="12.5" x2="3" y2="12.5" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#2DD5C3"/>
-      <stop offset="1" stop-color="#0076FF"/>
-    </linearGradient>
-  </defs>
-</svg>
-</div>
-    </div>
-</div>
-
-     </div>
-
-     <div className='flex mt-[12px] mx-[61px] gap-[12px]'>
-     <div 
-  className='w-[187px] h-[74px] bg-white rounded-[23px]' 
-  style={{ 
-    boxShadow: '0px 2px 2px 0px rgba(0, 0, 0, 0.06), 4px 4px 9px 0px rgba(0, 0, 0, 0.21)' 
-  }}
->
-<div className='flex items-center mt-[10px] '>
-    <div className='mx-[22px] mt-[16px] text-[16px] font-normal'>
-        Catch Me Up
-    </div>
-    <div className='absolute mt-[16px] mx-[148px]'>
-    <svg xmlns="http://www.w3.org/2000/svg" width="19" height="21" viewBox="0 0 19 21" fill="none">
-  <path d="M0.906199 5.95455C3.31883 2.02587 8.30575 0.345453 12.6784 2.20153C17.4957 4.24635 19.7432 9.80919 17.6984 14.6265C15.6535 19.4438 10.0907 21.6914 5.2734 19.6466C3.39104 18.8476 1.90106 17.5114 0.906198 15.8925" stroke="url(#paint0_linear_3944_906)" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M5.23438 15.7358L1.06503 15.7358C0.750999 15.7358 0.496479 15.9904 0.496479 16.3044L0.496479 20.4737" stroke="url(#paint1_linear_3944_906)" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M13.3636 13.1821L9 13.1821L9 7.72754" stroke="url(#paint2_linear_3944_906)" stroke-linecap="round" stroke-linejoin="round"/>
-  <defs>
-    <linearGradient id="paint0_linear_3944_906" x1="9.68015" y1="20.4023" x2="9.68015" y2="1.4458" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#2DD5C3"/>
-      <stop offset="1" stop-color="#0076FF"/>
-    </linearGradient>
-    <linearGradient id="paint1_linear_3944_906" x1="2.86543" y1="20.4737" x2="2.86543" y2="15.7358" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#2DD5C3"/>
-      <stop offset="1" stop-color="#0076FF"/>
-    </linearGradient>
-    <linearGradient id="paint2_linear_3944_906" x1="13.3636" y1="10.4548" x2="9" y2="10.4548" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#2DD5C3"/>
-      <stop offset="1" stop-color="#0076FF"/>
-    </linearGradient>
-  </defs>
-</svg>
-</div>
-    </div>
-</div>
-
-<div 
-  className='w-[187px] h-[74px] bg-white rounded-[23px]' 
-  style={{ 
-    boxShadow: '0px 2px 2px 0px rgba(0, 0, 0, 0.06), 4px 4px 9px 0px rgba(0, 0, 0, 0.21)' 
-  }}
->
-<div className='flex items-center mt-[10px] '>
-    <div className='mx-[22px] mt-[16px] text-[16px] font-normal'>
-        Prepare Me
-    </div>
-    <div className='absolute mt-[16px] mx-[148px] '>
-    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
-  <path d="M2 11.4582H22M2 11.4582V4.7915C2 4.44633 2.26863 4.1665 2.6 4.1665H8.77805C8.92127 4.1665 9.05977 4.21988 9.16852 4.31697L12.3315 7.14103C12.4402 7.23813 12.5787 7.2915 12.722 7.2915H21.4C21.7314 7.2915 22 7.57133 22 7.9165V11.4582H2ZM2 11.4582V20.2082C2 20.5534 2.26863 20.8332 2.6 20.8332H21.4C21.7314 20.8332 22 20.5534 22 20.2082V11.4582H2Z" stroke="url(#paint0_linear_3339_21566)" stroke-linecap="round" stroke-linejoin="round"/>
-  <defs>
-    <linearGradient id="paint0_linear_3339_21566" x1="22" y1="12.4998" x2="2" y2="12.4998" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#2DD5C3"/>
-      <stop offset="1" stop-color="#0076FF"/>
-    </linearGradient>
-  </defs>
-</svg>
-</div>
-    </div>
-</div>
-
-     </div>
-     </div>
-     <div className='mt-[89px]'>
+    
+     <div className='mt-[120px] '>
      <div className='flex '>
      <svg xmlns="http://www.w3.org/2000/svg" width="249" height="27" viewBox="0 0 249 27" fill="none">
   <g clip-path="url(#clip0_3339_21552)">
@@ -150,10 +35,10 @@ const Cards = () => {
 
 
      </div>
-     <div className='text-[20px] font-normal mt-[23px] mx-[3px] text-[#414141]'>
+     <div className='card text-[20px] font-medium mt-[34px] ml-[3px] text-[#414141] leading-[30px]'>
      AI-Powered Actions
 </div>
-<div className='w-[366px] h-[102px] text-[16px] font-normal mt-[6px] mx-[3px] text-[#414141]'>
+<div className='card w-[366px] h-[53px] text-[16px] font-normal mt-[6px] mx-[3px] text-[#414141] leading-[26px]'>
 Go a level deeper on your knowledge and data with superpowerful actions on your information.
 </div>
 <div className='mt-[15px] mx-[3px]'>
@@ -162,7 +47,7 @@ Go a level deeper on your knowledge and data with superpowerful actions on your 
 </div>
      </div>
 
-     <div className='flex w-full h-[0px] mt-[85px] justify-center items-center'>
+     <div className='flex w-full h-0 mt-[85px] justify-center items-center text-[#858585]'>
  <svg xmlns="http://www.w3.org/2000/svg" width="1105" height="2" viewBox="0 0 1105 2" fill="none">
   <path d="M0 1L1105 1" stroke="#858585"/>
 </svg>

@@ -117,7 +117,7 @@ body {
 
 .button {
   position: absolute;
-  top: 50%;
+  bottom: 20%;
   transform: translateY(-50%);
   cursor: pointer;
   z-index: 10;
@@ -176,7 +176,29 @@ body {
 }
 
 
+.gradient-text-1 {
+  background: linear-gradient(79deg, #7E8E9C 8.78%, #C3C8CB 49.87%, #788187 90.97%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Outfit, sans-serif;
+    font-size: 47px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 57px;
+}
 
+.gradient-text-2 {
+  background: linear-gradient(270deg, #2DD5C3 23.19%, #0076FF 47.48%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Outfit, sans-serif;
+  font-size: 47px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 57px;
+}
 
 
 
@@ -206,3 +228,42 @@ body {
   stroke: white;
   /* Change the path stroke color on hover */
 }
+
+
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+  /* Safari and Chrome */
+}
+
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  /* Internet Explorer and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+}
+
+
+
+
+.blurred {
+  position: relative;
+  backdrop-filter: blur(12.5px);
+  background: rgba(187, 187, 187, 0.70);
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  /* Ensure it sits above other content */
+}
+
+

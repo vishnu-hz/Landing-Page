@@ -16,6 +16,7 @@ import Features from './Features'
 import Credibility from './Credibility'
 import Testimonials from './Testimonials'
 import Footer from './Footer'
+import Form from './Form'
 export default function Home() {
   return (
     
@@ -24,10 +25,9 @@ export default function Home() {
 
       </div>
       
-     {/* <Page1/>
-   <TypingAnimation/> */}
+     
    <Hero/>
-    <Brands/>
+    <Brands/>  
     <ScrollAnim/>
     <Cards/>
     <Cards2/>
@@ -37,9 +37,11 @@ export default function Home() {
     <Features/>
     <Credibility/>
     <Testimonials/>
-    <Footer/>
-    {/* <SearchIcon/> */}
-    {/* <Ellipse/> */}
+    <Footer/> 
+
+
+    {/* <Form/> */}
+   
     
     </div>
     
