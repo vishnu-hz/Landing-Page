@@ -408,9 +408,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 
 const Testimonials = () => {
-  // const scrollRef = useRef(null);
-
-  const scrollRef = useRef<HTMLDivElement>(null);
+  const scrollRef = useRef(null);
   const [currentCircle, setCurrentCircle] = useState(0);
   const totalCircles = 4; // Total number of cards (adjust this based on your actual number of testimonial cards)
 
@@ -490,30 +488,32 @@ const handleScroll = (direction: 'left' | 'right') => {
       }
     }
 
-    // Left Scroll
-    if (direction === 'left') {
-      if (currentCircle === 0) {
-        // If it's the first card, scroll to the last
-        scrollRef.current.scrollTo({
-          top: 0,
-          left: cardWidth * (totalCircles - 1),
-          behavior: 'smooth',
-        });
-        setCurrentCircle(totalCircles - 1);
-      } else {
-        // Scroll to the previous card
-        scrollRef.current.scrollBy({
-          top: 0,
-          left: -cardWidth,
-          behavior: 'smooth',
-        });
-        setCurrentCircle((prev) => prev - 1);
+      // Left Scroll
+      if (direction === 'left') {
+        if (currentCircle === 0) {
+          // If it's the first card, scroll to the last
+          scrollRef.current.scrollTo({
+            top: 0,
+            left: cardWidth * (totalCircles - 1),
+            behavior: 'smooth',
+          });
+          setCurrentCircle(totalCircles - 1);
+        } else {
+          // Scroll to the previous card
+          scrollRef.current.scrollBy({
+            top: 0,
+            left: -cardWidth,
+            behavior: 'smooth',
+          });
+          setCurrentCircle((prev) => prev - 1);
+        }
       }
     }
-  }
-};
+  };
 
 
+
+      
 
   // Auto-scroll every 15 seconds
   useEffect(() => {
