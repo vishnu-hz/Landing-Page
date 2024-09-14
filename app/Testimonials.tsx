@@ -408,7 +408,8 @@
 import React, { useEffect, useRef, useState } from 'react';
 
 const Testimonials = () => {
-  const scrollRef = useRef(null);
+  // const scrollRef = useRef(null);
+  const scrollRef = useRef<HTMLDivElement>(null);
   const [currentCircle, setCurrentCircle] = useState(0);
   const totalCircles = 4; // Total number of cards (adjust this based on your actual number of testimonial cards)
 
