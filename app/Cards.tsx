@@ -395,7 +395,7 @@ const Cards = () => {
   const scrollLeft = () => {
     if (cardContainerRef.current) {
       (cardContainerRef.current as HTMLDivElement).scrollBy({
-        left: - (cardContainerRef.current.offsetWidth / 1.2),
+        left: - (cardContainerRef.current.offsetWidth / 1),
         behavior: 'smooth'
       });
     }
@@ -404,7 +404,7 @@ const Cards = () => {
   const scrollRight = () => {
     if (cardContainerRef.current) {
       (cardContainerRef.current as HTMLDivElement).scrollBy({
-        left: cardContainerRef.current.offsetWidth / 1.2,
+        left: cardContainerRef.current.offsetWidth / 1),
         behavior: 'smooth'
       });
     }
