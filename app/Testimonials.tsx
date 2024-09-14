@@ -927,6 +927,47 @@ const Testimonials = () => {
                 </div>
               </div>
             </div>
+
+<div className='flex gap-[256px] mt-[23px] ml-[57px]'>
+              <img src='./KPMG.svg' alt='KPMG' />
+              <div>
+                <svg xmlns="http://www.w3.org/2000/svg" width="102" height="102" viewBox="0 0 102 102" fill="none">
+                  <circle cx="51" cy="51" r="51" fill="#D9D9D9" />
+                </svg>
+              </div>
+            </div>
+
+            <div className='card flex-shrink-0 w-[391px] h-[216px] ml-[57px] text-[24px] text-[#414141] font-medium leading-[38px]'>
+              “Zelo has added a lot of value to our team’s productivity. The AI model being used has shown great results..”
+              <div className='card absolute text-[20px] text-[#414141] mt-[50px]'>
+                Steve Gates
+                <div className='card text-[16px] font-normal text-[#414141]'>
+                  Managing Partner, ABCD
+                </div>
+              </div>
+            </div>
+
+
+
+                <div className='flex gap-[256px] mt-[23px] ml-[57px]'>
+              <img src='./KPMG.svg' alt='KPMG' />
+              <div>
+                <svg xmlns="http://www.w3.org/2000/svg" width="102" height="102" viewBox="0 0 102 102" fill="none">
+                  <circle cx="51" cy="51" r="51" fill="#D9D9D9" />
+                </svg>
+              </div>
+            </div>
+
+            <div className='card flex-shrink-0 w-[391px] h-[216px] ml-[57px] text-[24px] text-[#414141] font-medium leading-[38px]'>
+              “Zelo has added a lot of value to our team’s productivity. The AI model being used has shown great results..”
+              <div className='card absolute text-[20px] text-[#414141] mt-[50px]'>
+                Steve Gates
+                <div className='card text-[16px] font-normal text-[#414141]'>
+                  Managing Partner, ABCD
+                </div>
+              </div>
+            </div>
+                
           </div>
         ))}
 
