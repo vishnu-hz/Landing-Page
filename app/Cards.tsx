@@ -389,7 +389,8 @@ import React, { useRef } from 'react';
 
 
 const Cards = () => {
-  const cardContainerRef = useRef(null);
+  const cardContainerRef = useRef<HTMLDivElement>(null);
+
 
   const scrollLeft = () => {
     if (cardContainerRef.current) {
