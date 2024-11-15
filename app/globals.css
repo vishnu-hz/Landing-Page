@@ -267,3 +267,206 @@ body {
 }
 
 
+/* Default styles for larger screens */
+.benefits-container {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.benefit-card {
+  border: 1px solid #d1e3fc;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.05);
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+  /* Ensure cards take up full width in container */
+  max-width: 300px;
+  /* Limit width on larger screens */
+}
+
+.benefit-card-icon {
+  width: 40px;
+  height: 40px;
+  background-color: #e0f7ff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.benefit-card-content h3 {
+  font-size: 1.2rem;
+  color: #333;
+  margin: 0;
+}
+
+.benefit-card-content p {
+  font-size: 0.9rem;
+  color: #666;
+  margin: 0;
+}
+
+/* Mobile view (adjust width as needed) */
+@media (max-width: 768px) {
+  .benefits-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .benefit-card {
+    width: 90%;
+    /* Make cards take most of the screen width on mobile */
+    margin: 0.5rem 0;
+    flex-direction: row;
+    max-width: none;
+    /* Remove max-width constraint */
+  }
+
+  .benefit-card-icon {
+    margin-right: 1rem;
+  }
+
+  .benefit-card-content h3 {
+    font-size: 1rem;
+  }
+
+  .benefit-card-content p {
+    font-size: 0.85rem;
+  }
+}
+
+.t-card {
+  margin: 0 12.5px;
+  /* Half of the total gap between cards */
+  flex-shrink: 0;
+}
+
+
+/* Carousel Wrapper */
+.carousel-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  padding: 0 100px;
+  /* Ensures space for the buttons on large screens */
+}
+
+/* Carousel Container */
+/* Carousel Container */
+.t-carousel-container {
+  display: flex;
+  gap: 25px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  padding: 0 25%;
+  width: 100vw;
+  /* Ensures no extra scroll space */
+  justify-content: center;
+  -ms-overflow-style: none;
+  /* For Internet Explorer and Edge */
+  scrollbar-width: none;
+  /* For Firefox */
+}
+
+.t-carousel-container::-webkit-scrollbar {
+  display: none;
+  /* For Chrome, Safari, and Opera */
+}
+
+/* Carousel Card */
+.t-carousel-card {
+  flex-shrink: 0;
+  scroll-snap-align: center;
+}
+
+/* Laptop view */
+@media (min-width: 1024px) {
+  .t-carousel-card {
+    width: 551px;
+    height: 403px;
+  }
+
+  /* Scroll Button Styling */
+  /* .t-scroll-button {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    z-index: 1;
+  } */
+
+  /* Left Scroll Button */
+  .t-scroll-left {
+    left: 100px;
+  }
+
+  /* Right Scroll Button */
+  .t-scroll-right {
+    right: 100px;
+  }
+}
+
+/* Mobile view */
+@media (max-width: 1023px) {
+  .t-carousel-card {
+    width: 360px;
+    height: 313px;
+  }
+
+  /* Hide scroll buttons on mobile view */
+  .t-scroll-button {
+    display: none;
+  }
+}
+
+
+.slick-track {
+  display: flex !important;
+  gap: 25px !important;
+  /* Adds consistent spacing between cards */
+}
+
+.slick-slide {
+  padding: 0 !important;
+  box-sizing: border-box;
+  /* Ensure consistent spacing */
+}
+
+.slick-list {
+  overflow: visible !important;
+  /* Prevent clipping of gaps */
+  padding: 0 12.5px;
+  /* Half of the gap for equal spacing on edges */
+}
+
+
+/* Pause all animations and transitions */
+.animation-pause * {
+  animation-play-state: paused !important;
+  transition: none !important;
+  pointer-events: none;
+}
+
+.blur-sm {
+  filter: blur(5px);
+  transition: filter 0.3s ease;
+}
+
+.carousel-img {
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel-img:hover {
+  transform: scale(5);
+}

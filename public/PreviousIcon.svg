@@ -1,0 +1,26 @@
+<svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="41"
+        height="41"
+        viewBox="0 0 41 41"
+        fill="none"
+        className="group-hover:fill-[#1EA6ED] transition-colors duration-200"
+      >
+        <circle
+          cx="20.5"
+          cy="20.5"
+          r="19.5"
+          fill="white"
+          stroke="#B2B2B2"
+          strokeWidth="1.2"
+          className="group-hover:fill-[#1EA6ED] group-hover:stroke-[#1EA6ED]"
+        />
+        <path
+          d="M23.2861 26.6287L16.6004 19.9429M16.6004 19.9429L23.2861 13.2572M16.6004 19.9429H16.8089"
+          stroke="#B2B2B2"
+          strokeWidth="1.2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          className="group-hover:stroke-[#FFF]"
+        />
+      </svg>
