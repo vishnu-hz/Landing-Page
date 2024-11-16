@@ -3,7 +3,7 @@
 import React, { useState } from "react";
 import { useRouter } from "next/navigation";
 import TypingAnimation from "./TypingAnimation";
-import Form from "../form/page";
+import Form from "./Form";
 import Image from "next/image";
 
 const Hero: React.FC = () => {
@@ -23,9 +23,9 @@ const Hero: React.FC = () => {
   return (
     <>
       {/* Main Content */}
-      <div className={`w-full h-full overflow-hidden flex-shrink-0 ${isModalOpen? "" : " "}`}>
+      <div className={`w-full h-full overflow-hidden flex-shrink-0`}>
         {/* Header */}
-        <div className="fixed top-0 left-0 right-0 z-50 flex flex-shrink-0 w-[1108px] h-[75px] rounded-[70px] bg-white/85 shadow-md backdrop-blur-[7.5px] mt-[33px] mx-[202px]">
+        <div className="fixed z-50 flex flex-shrink-0 w-[1108px] h-[75px] rounded-[70px] bg-white/85 shadow-md backdrop-blur-[7.5px] mt-8 mx-52">
           <div className="relative flex flex-shrink-0 ml-10">
             <Image src="/ZeloLogo.svg" alt="Zelo Logo" width={129} height={43} />
           </div>
